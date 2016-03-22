@@ -3,6 +3,7 @@ package com.xxx;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.security.SecureRandom;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.List;
@@ -73,9 +74,19 @@ public class Test1 {
 		// }
 
 		//System.out.println(getInstance().toString());
-		if("33.jpg".matches("[.*\\.jpg$|11]")){
-			System.out.println(123);
-		}
+//		if("33.jpg".matches("[.*\\.jpg$|11]")){
+//			System.out.println(123);
+//		}
+		
+//		String str = ",,,, ";
+//		String s[] = str.split(",");
+//		System.out.println(s.length );
+//		System.out.println(s[0].equals("") );
+		
+//		int a[] = new int[Integer.MAX_VALUE];
+//		System.out.println(a.length);
+		
+		System.out.println(new SecureRandom().nextLong());
 	}
 
 	/**
