@@ -1,14 +1,13 @@
 package com.xxx;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.security.SecureRandom;
+import java.awt.Color;
 import java.text.ParseException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicLong;
+
+import com.google.common.base.Optional;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableSet;
 
 public class Test1 {
 	private static Map<String, Object> map = new HashMap();
@@ -86,7 +85,68 @@ public class Test1 {
 //		int a[] = new int[Integer.MAX_VALUE];
 //		System.out.println(a.length);
 		
-		System.out.println(new SecureRandom().nextLong());
+//		System.out.println(new SecureRandom().nextLong());
+
+//		System.out.println("123+456".split("[+]").length);
+//		System.out.println("123+456".split("\\+").length);
+//		System.out.println(Test1.class.getResource("/").getPath());
+		
+//		SynchronousQueue<String> syncProgress=new SynchronousQueue<>(true);
+//		System.out.println(syncProgress.size());
+//		syncProgress.put("123");
+//		System.out.println(syncProgress.size());
+		
+//		List<String> list = new ArrayList<String>(Arrays.asList("","","","",""));
+//		System.out.println(list.size());
+//		Collections.fill(list, "0");
+//		System.out.println(list.get(0));
+//		System.out.println(list.size());
+//		list.subList(0, 3);
+//		System.out.println(list.size());
+
+//		Set<String> set = new HashSet();
+//		System.out.println(set.size());
+//		set.add(null);
+//		System.out.println(set.size());
+//		
+//		List<String> list = Collections.nCopies(10,"0");
+//		System.out.println(list.size());
+//		list.add(null);
+//		System.out.println(list.size());
+		
+//		Test1 test1 = SingletonHolder.instance;
+//		System.out.println(test1.hashCode());
+		
+//		System.out.println(String.valueOf(Calendar.getInstance().getTimeInMillis()).substring(4));
+		
+//		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMM");
+//		Date startDate = sdf.parse("201512");
+//		Calendar calendar = Calendar.getInstance();
+//		calendar.setTime(startDate);
+//		calendar.add(Calendar.MONTH, 1);
+//		Date endDate = calendar.getTime();
+//		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyyMMdd HHmmSS");
+//		System.out.println(sdf2.format(startDate));
+//		System.out.println(sdf2.format(endDate));
+		
+//		System.out.println(new Date().getTime());
+//		System.out.println(System.currentTimeMillis());
+//		System.out.println();
+		
+//		BigDecimal i = BigDecimal.valueOf(1.45);
+//		BigDecimal j = BigDecimal.valueOf(1.55);
+//		System.out.println(i.add(j));
+		
+//		Optional<Integer> op = Optional.absent();
+//		System.out.println(op.isPresent());
+//		ImmutableSet.of("a", "b", "c");
+//		ImmutableMap.of("a", 1, "b", 2, 2,"d");
+//
+//		ImmutableSet.builder()
+//		            .add(new Color(0, 191, 255))
+//		            .build();
+
+		System.out.println("阿萨德发松岛枫".length());
 	}
 
 	/**

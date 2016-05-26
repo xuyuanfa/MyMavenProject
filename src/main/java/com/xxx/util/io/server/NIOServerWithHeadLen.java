@@ -194,7 +194,7 @@ public class NIOServerWithHeadLen {
 	 */
 	public static void main(String[] args) throws IOException {
 		NIOServerWithHeadLen server = new NIOServerWithHeadLen();
-		server.initServer(HEAD_LENGTH_6, 9008);
+		server.initServer(HEAD_LENGTH_8, 8000);
 		server.listen();
 	}
 
